@@ -1,0 +1,30 @@
+{
+  "name": "jsqrcode",
+  "version": "1.0.0",
+  "description": "JavaScript QRCode reader for HTML5 enabled browser.\r 2011 Lazar Laszlo  http://lazarsoft.info",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xelaz/jsqrcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xelaz/jsqrcode/issues"
+  },
+  "homepage": "https://github.com/xelaz/jsqrcode#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-filesize": "0.0.6",
+    "gulp-include": "^2.3.1",
+    "gulp-jsbeautifier": "^2.1.1",
+    "gulp-optimize-js": "^1.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
